@@ -1,0 +1,22 @@
+1. In React we have to manage fronend and backend separatly
+2. In React we have to use extenal library to manage route (react-router-dom)
+3. React in not SEO optimised.
+  -uses single html page and inject using js
+  -browser uses crawlers, which extract data from html
+  -based on the data browsers render and rank your website
+4. Waterfall problem.
+  -one after one steps
+  -html -> script page -> css page -> authentication check -> etc.
+  -this makes the process slow
+  -req after req is not good.
+
+
+NextJS resolves these issues...
+
+-server side rendering - gets seo optimised
+-api routes - single code base for frontend and backend
+-filed based routing
+-bundle size optimisation, static site generation
+-maintained by vercel
+
+-can't be distributed via a CDN
