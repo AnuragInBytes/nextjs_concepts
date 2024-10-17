@@ -28,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="p-6 border-b font-bold text-2xl">Medium Website</div>
         {children}
       </body>
     </html>
